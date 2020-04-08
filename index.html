@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Natalia Maccarrone">
+    <meta name="description" content="Web de Podcast generada como proyecto para el curso Full Stack de Acámica">
+    <meta name="keywords" content="Podcast Channel">
+
+    <!-- Normalizador -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- Fuentes de Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500%7CIBM+Plex+Sans:400,600&display=swap">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Podcast - Proyecto Acámica</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b3ce103b8f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="barra_navegacion">
+            <img src="images/logo.svg" alt="Logo" class="logo">
+            <input type="checkbox" id="menu-check">
+            <label for="menu-check" class="label-checkbox">
+                <span class="linea"></span>
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="#episodios">Episodios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#entrevistas">Entrevistas</a></li>
+                    <li><a href="#topicos">Tópicos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1>Hello <span class="tachado">world</span> pale blue dot<span class="dot">.</span></h1>
+        <!-- Texto para pantallas móvil y tablet -->
+        <p class="texto-mobile">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+        <!-- Texto para pantalla desktop -->
+        <p class="texto-desktop">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+        <a href="#episodios">
+            <div class="boton boton-header">
+                <p>Conocé más</p>
+            </div>
+        </a>
+    </header>
+
+    <main>
+        <section id="episodios">
+            <h2 class="titulo-episodios">Episodios</h2>
+            <div class="lista-episodios">
+                <iframe class="episodio" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"></iframe>
+                <iframe class="episodio" src="https://open.spotify.com/embed-podcast/episode/03qherV9ctvyKJCbLPKI51"></iframe>
+                <iframe class="episodio" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"></iframe>
+                <iframe class="episodio" src="https://open.spotify.com/embed-podcast/episode/041JeGPtfgxJQ9CmOVx6fi"></iframe>
+            </div>
+        </section>
+
+        <section id="nosotros">
+            <img src="images/phone.png" alt="Foto de telefono" class="foto-tel">
+            <div class="container-texto">
+                <h2>De dónde venimos</h2>
+                <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
+                <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
+        </section>
+
+        <section id="entrevistas">
+            <h2 class="titulo-entrevistas">Invitadas/os estelares</h2>
+            <div class="container">
+                <img class="foto-persona" src="images/grace-hopper.png" alt="Imagen de Grace Hopper">
+                <img class="foto-persona" src="images/katie-bouman.png" alt="Imagen de Katie Bouman">
+                <img class="foto-persona" src="images/margaret_hamilton.png" alt="Imagen de Margaret Hamilton">
+                <img class="foto-persona" src="images/univac.png" alt="Imagen de computadora E.R.A. Univac 1950s">
+                <img class="foto-persona" src="images/eniac.png" alt="Imagen de Operadoras de Computadora con una Eniac">
+                <img class="foto-persona" src="images/susan-kare.png" alt="Imagen de Susan Kare">
+            </div>
+        </section>
+
+        <section id="topicos">
+            <h2 class="titulo-topicos">Algunos de nuestros temas</h2>
+            <div class="container">
+                <div class="icono-titulo">
+                    <img src="images/icon-trabajo-remoto.svg" alt="Icono Trabajo Remoto">
+                    <p>Trabajo remoto</p>
+                </div>
+                <div class="icono-titulo">
+                    <img src="images/icon-repensando-programacion.svg" alt="Icono Repensando la Programación">
+                    <p>Repensando la programación</p>
+                </div>
+                <div class="icono-titulo">
+                    <img src="images/icon-bases-del-codigo.svg" alt="Icono Bases del Código">
+                    <p>Bases del código</p>
+                </div>
+                <div class="icono-titulo">
+                    <img src="images/icon-seguridad-informatica.svg" alt="Icono Seguridad Informática">
+                    <p>Seguridad informática</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="novedades">
+            <h2 class="titulo-novedades">¿Querés las últimas novedades?</h2>
+            <a href="#episodios">
+                <div class="boton boton-novedades">
+                    <p>escuchá los episodios</p>
+                </div>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p class="texto">© 2019— Hello blue pale dot</p>
+        <div class="redes-sociales">
+            <a href="https://www.spotify.com" target="_blank"><i class="fab fa-spotify"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.telegram.com" target="_blank"><i class="fab fa-telegram"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>

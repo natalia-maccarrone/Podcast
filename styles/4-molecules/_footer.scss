@@ -1,0 +1,44 @@
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    position: relative;
+    padding: 8%;
+    .redes-sociales {
+        display: flex;
+        flex-flow: row nowrap;
+        width: 100%;
+        justify-content: space-between;
+        width: 16.21rem;
+        a {
+            color: $color-texto;
+            transition: color .2s ease-out;
+            transition: transform .2s ease-out;
+            &:hover {
+                color: $color-boton;
+                transform: scale(1.5);
+            }
+        }
+    }
+}
+
+@media (min-width: $tablet) {
+    footer {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        padding: 2% 4%;
+    }
+}
+
+@media (min-width: $desktop) {
+    footer {
+        padding: 1% 5%;
+    }
+}
+
+@media (min-width: $desktop-grande) {
+    footer {
+        margin: auto;
+        width: 76rem;
+    }
+}

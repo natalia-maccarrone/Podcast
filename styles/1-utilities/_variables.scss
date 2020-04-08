@@ -1,0 +1,32 @@
+/* FUENTES */
+
+$fuente-texto: 'IBM Plex Mono',
+monospace;
+$fuente-titulos: 'IBM Plex Sans',
+sans-serif;
+
+/* COLORES */
+
+$color-fondo-menu: #0000EC;
+$color-texto-menu: #fff;
+$color-texto: #060A24;
+$color-boton: #00F3BB;
+$color-link-menu: #fff;
+$color-boton-gradiente-1: #0000FE;
+$color-boton-gradiente-2: #00F0B8;
+$color-fondo-episodios-1: #0000FF;
+$color-fondo-episodios-2: #0000A3;
+$color-titulo-seccion: #fff;
+$color-texto-boton-hover: #fff;
+$color-link-active: rgba(6, 10, 36, 0.56);
+
+/* GRADIENTES */
+
+$gradiente-fondo: linear-gradient(225deg, $color-fondo-episodios-1 0%, $color-fondo-episodios-2 100%);
+$gradiente-botones: linear-gradient(225deg, $color-boton-gradiente-1 0%, $color-boton-gradiente-2 100%);
+
+/* BREAKPOINTS */
+
+$tablet: 768px;
+$desktop: 992px;
+$desktop-grande: 1200px;

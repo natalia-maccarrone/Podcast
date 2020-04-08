@@ -1,0 +1,31 @@
+#novedades {
+    padding: 8% 5% 8% 5%;
+    position: relative;
+    background-image: $gradiente-fondo;
+    clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0 100%);
+    .titulo-novedades {
+        color: $color-titulo-seccion;
+        margin-bottom: 2.86rem;
+        text-align: center;
+    }
+}
+
+@media (min-width: $tablet) {
+    #novedades {
+        clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0 100%);
+        padding: 15% 0 5% 0;
+        .boton-novedades {
+            width: 24.64rem;
+            margin: 9% auto;
+        }
+    }
+}
+
+@media (min-width: $desktop) {
+    #novedades {
+        padding: 10% 0 5% 0;
+        .boton-novedades {
+            margin: 5% auto;
+        }
+    }
+}

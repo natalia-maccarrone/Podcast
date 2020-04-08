@@ -1,0 +1,39 @@
+#nosotros {
+    padding: 0 5% 0 5%;
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+    top: -5rem;
+    .foto-tel {
+        width: 100%;
+    }
+    .container-texto {
+        p {
+            font-size: 1rem;
+            line-height: 1.57rem;
+        }
+    }
+}
+
+@media (min-width: $tablet) {
+    #nosotros {
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        .foto-tel {
+            width: 50%;
+        }
+        .container-texto {
+            max-width: 29rem;
+        }
+    }
+}
+
+@media (min-width: $desktop) {
+    #nosotros {
+        top: -10rem;
+        .foto-tel {
+            width: 40%;
+        }
+    }
+}

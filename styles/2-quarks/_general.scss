@@ -1,0 +1,48 @@
+html {
+    font-size: 14px;
+    a {
+        text-decoration: none;
+        color: $color-texto;
+    }
+    p {
+        font-family: $fuente-texto;
+        color: $color-texto;
+        letter-spacing: 0;
+        line-height: 1.57rem;
+    }
+    h1 {
+        font-family: $fuente-titulos;
+        font-size: 2.67rem;
+        color: $color-texto;
+        letter-spacing: 0;
+        line-height: 3rem;
+        font-weight: 400;
+    }
+    h2 {
+        font-family: $fuente-titulos;
+        font-size: 2.57rem;
+        line-height: 3rem;
+        font-weight: 400;
+        color: $color-texto;
+        margin-bottom: 0.71rem;
+    }
+    .crossed {
+        text-decoration: line-through;
+    }
+}
+
+@media (min-width: $tablet) {
+    h1 {
+        margin: 7rem 10% 0 10%;
+        .dot {
+            color: $color-fondo-menu;
+        }
+    }
+}
+
+@media (min-width: $desktop-grande) {
+    h2 {
+        margin: auto;
+        max-width: 77rem;
+    }
+}

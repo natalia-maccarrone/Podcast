@@ -1,0 +1,28 @@
+#entrevistas {
+    position: relative;
+    top: -5rem;
+    .titulo-entrevistas {
+        padding: 0 5% 0 5%;
+    }
+    .container {
+        display: flex;
+        flex-flow: column nowrap;
+        .foto-persona {
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: $tablet) {
+    #entrevistas {
+        padding: 0;
+        .titulo-entrevistas {
+            margin-bottom: 2rem;
+            margin-left: 10%;
+        }
+        .container {
+            display: grid;
+            grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+        }
+    }
+}
